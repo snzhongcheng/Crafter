@@ -19,6 +19,5 @@ class ExampleAddonPreferences(AddonPreferences):
 
     def draw(self, context: bpy.types.Context):
         layout = self.layout
-        layout.label(text="Functions Preferences")
         layout.prop(self, "Import_World")
         layout.prop(self, "Materials_Loader")
